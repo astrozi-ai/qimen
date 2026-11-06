@@ -1,0 +1,13 @@
+{
+  "extends": "../../tsconfig.base.json",
+  "compilerOptions": {
+    "rootDir": "src",
+    "outDir": "dist",
+    // The algorithm modules rely on direct index access and loose optional
+    // typing. Tightening these flags is a later, reviewed change.
+    "noUncheckedIndexedAccess": false,
+    "exactOptionalPropertyTypes": false,
+    "verbatimModuleSyntax": false
+  },
+  "include": ["src"]
+}

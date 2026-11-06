@@ -1,0 +1,40 @@
+{
+  "name": "@iching/qimen-core",
+  "version": "0.0.0",
+  "private": true,
+  "description": "Qi Men Dun Jia (奇门遁甲/奇門遁甲) chart calculation: yin/yang dun, ju number, earth and heaven plates, nine stars, eight doors, eight gods, zhi fu/zhi shi, void and horse.",
+  "license": "MIT",
+  "type": "module",
+  "exports": {
+    ".": "./src/index.ts"
+  },
+  "files": [
+    "src",
+    "README.md",
+    "LICENSE"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/astrozi-ai/qimen.git",
+    "directory": "packages/qimen-core"
+  },
+  "homepage": "https://github.com/astrozi-ai/qimen#readme",
+  "bugs": "https://github.com/astrozi-ai/qimen/issues",
+  "keywords": [
+    "qimen",
+    "qimen-dunjia",
+    "paipan",
+    "chinese-metaphysics",
+    "奇门遁甲",
+    "奇門遁甲",
+    "排盘",
+    "术数"
+  ],
+  "publishConfig": {
+    "access": "public",
+    "provenance": true
+  },
+  "dependencies": {
+    "tyme4ts": "1.4.2"
+  }
+}
